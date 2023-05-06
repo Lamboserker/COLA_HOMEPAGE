@@ -1,0 +1,30 @@
+body {
+    font-family: 'Crimson Text', serif;
+    background-image: url(img/Suusenbinder_burning_Lake_in_the_forrest_high_quality_3afe29fa-cc37-44a5-8e3d-c6b39455f79a.png);
+    padding: 20px;
+}
+
+.law-book {
+background-image: url(img/pexels-pixabay-235985.jpg);
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    text-indent: 50px;
+    margin-bottom: 20px;
+}
