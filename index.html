@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/71df581bd8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- NAVIGATION -->
+<section id="rival-nav">
+  <div id="navtop">
+    <div class="navsect">
+      <a href="/index.html" title="back to index">
+        <div class="navtogbtn">
+          
+        </div>
+      </a>
+      <div class="navtitle">
+        <span>COLA</span>
+        a FiveM roleplay
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HEADER -->
+<section id="rival-header">
+ 
+<input type="radio" id="rtab1" name="rtabs" checked>
+<label for="rtab1" id="rtab1">
+<div class="rtabdot"></div>  
+</label>
+          
+<input type="radio" id="rtab2" name="rtabs">
+<label for="rtab2" id="rtab2">
+<div class="rtabdot"></div>  
+</label>
+  
+<input type="radio" id="rtab3" name="rtabs">
+<label for="rtab3" id="rtab3">
+<div class="rtabdot"></div>
+</label>
+  
+<input type="radio" id="rtab4" name="rtabs">
+<label for="rtab4" id="rtab4">
+<div class="rtabdot"></div>  
+</label>
+  
+<div class="rivalexpbar">
+<div class="rivalmeter"></div>
+</div>
+  
+<div class="acerola"></div>
+<div class="sitetitle"></div> 
+<div class="siteblurb">
+<p>Herzlich Willkommmen!</p>
+</div> 
+
+<div class="siteupev">Regeln</div>
+<div class="siteupdates">
+   
+</div>
+<div class="siteevent">
+<div class="siteeventmain">
+<div class="siteetop">
+<h2>COLA</h2>
+<h1>REGELWERK</h1>
+</div>
+<div class="siteeinfo">
+<h2>Bitte nimm dir Zeit und lies dir unser Regelwerk aufmerksam durch, bevor du einreist.</h2> <a style="color: red;" href="/regelwerk.html">Klick hier, um das Regelwerk zu sehen</a>
+</div>
+</div>
+</div>
+  
+<div class="colorwash"></div>
+<div class="staffroster">
+<div class="staff-admin" id="staff1"><div class="staffimg1"></div></div>
+<div class="staff-admin" id="staff2"><div class="staffimg2"></div></div>
+<div class="staff-admin" id="staff3"><div class="staffimg3"></div></div>
+<div class="staff-admin" id="staff4"><div class="staffimg4"></div></div>
+
+<div class="mod-list">
+<div class="staff-mod" id="mod1"></div>
+<div class="staff-mod" id="mod2"></div>
+<div class="staff-mod" id="mod3"></div>
+<div class="staff-mod" id="mod4"></div>
+</div>
+</div>
+
+<div class="otm-sync">
+<a href="https://discord.gg/zT5MVekz58"><div class="otm-sync-pair">
+
+</div></a>
+</div>
+
+<div class="otm-wrap">
+<div class="otm-small">
+<a href="#"><div class="otm-thread">
+andere Gameserver   <span>COLA hat, abgesehen von FiveM noch andere aktive Gameserver</span>
+</div></a>
+</div>
+<div class="otm-small">
+<a href="#"><div class="otm-chara">
+Ansprechpartner  <span>COLA hat ein aktives Team an Moderatoren, die  sowohl für Server-wartungen als auch für die Ordnung im Spiel sorgen.  </span>
+</div></a>
+</div>
+<div class="otm-small">
+<a href="#"><div class="otm-mem">
+Supporter  <span>COLA hat zu den Moderatoren auch Supporter, die immer versuchen, eure Fragen so schnell es geht zu beantworten</span>
+</div></a>
+</div>
+</div>
+</section>
+
+
+
+<script>
+    $(".sticky").stick_in_parent({offset_top: 53});
+
+$('.navsidetop').on('click', function () {     
+$('#navtoggle').toggleClass('active')
+});
+
+var btn = $("#btp");
+
+btn.on("click", function(e) {
+	e.preventDefault();
+	$("html, body").animate({ scrollTop: 0 }, "300");
+});
+
+(function($){
+        $(document).ready(function(){
+            $("[title]").style_my_tooltips({ 
+    tip_follows_cursor:false,
+    tip_delay_time:300,
+    tip_fade_speed:400,
+    attribute:"title"
+});
+        });
+})(jQuery);
+
+// Select all links with hashes
+$('a[href*="#"]')
+	// Remove links that don't actually link to anything
+	.not('[href="#"]')
+	.not('[href="#0"]')
+	.click(function(event) {
+		// On-page links
+		if (
+			location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") &&
+			location.hostname == this.hostname
+		) {
+			// Figure out element to scroll to
+			var target = $(this.hash);
+			target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
+			// Does a scroll target exist?
+			if (target.length) {
+				// Only prevent default if animation is actually gonna happen
+				event.preventDefault();
+				$("html, body, #rival-main").animate(
+					{
+						scrollTop: target.offset().top
+					},
+					1000,
+					function() {
+						// Callback after animation
+						// Must change focus!
+						var $target = $(target);
+						$target.focus();
+						if ($target.is(":focus")) {
+							// Checking if the target was focused
+							return false;
+						} else {
+							$target.attr("tabindex", "-1"); // Adding tabindex for elements not focusable
+							$target.focus(); // Set focus again
+						}
+					}
+				);
+			}
+		}
+	});
+</script>
+</body>
+</html>
