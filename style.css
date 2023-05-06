@@ -632,9 +632,9 @@
     position: absolute;
   }
   
-  #mod1:after { content: "Admin"; }
-  #mod2:after { content: "Mod1"; }
-  #mod3:after { content: "Mod2"; }
+  #mod1:after { content: "Admin"; color: red;}
+  #mod2:after { content: "Mod1"; color: black; }
+  #mod3:after { content: "Mod2"; color: #ffffff; }
   #mod4:after { content: "Mod3"; }
   
   #mod1 { background: url(img/rsz_1lambo1996_you_stumble_upon_an_abandoned_alleyway_and_as_you_tur_935321cc-662c-4c26-81f7-25006a9b4ee7.png); }
