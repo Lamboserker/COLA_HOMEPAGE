@@ -560,16 +560,16 @@
   #staff4:hover .staffimg4 { background-position: 5% 35px!important; opacity: 1; -moz-opacity: 1; }
   
   #staff1::before {
-    content: "Lamboserker";
+    content: "Lamboserker"; color: red; font-size: 13px;
   }
   #staff2::before {
-    content:  "Suusmann";
+    content:  "Suusmann"; color: #0d0d0d; font-size: 15px;
   }
   #staff3::before {
-    content: "Silverhaz3";
+    content: "Silverhaz3"; color: #ffffff; font-size: 15px;
   }
   #staff4::before {
-    content: "SheLovesVeNoMz";
+    content: "SheLovesVeNoMz";color:  #ffffff; font-size: 14px;
   }
   
   .mod-list {
