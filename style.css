@@ -541,7 +541,7 @@ a:hover {
 }
 
 .staff-admin::after {
-  font-family: Roboto Condensed;
+  font-family: 'Sigmar', cursive;
   font-weight: 700;
   font-style: italic;
   font-size: 56px;
@@ -559,7 +559,7 @@ a:hover {
   transform: rotate(-90deg);
   color: var(--lightpurple);
   border-bottom: 1px solid var(--purple);
-  text-shadow: 0px 0px 5px var(--darkpurple), 0px 0px 10px var(--darkpurple), 0px 0px 15px var(--darkpurple);
+  text-shadow: 5px 1px 0 #000, 5px 1px 0 #000, 5px 5px 0 #000, 5px 5px 0 #000;
 }
 
 #staff1::after {
