@@ -517,9 +517,9 @@
   }
   
   #staff1::after { content: "Admin"; border-top: 1px solid var(--purple); }
-  #staff2::after { content: "Mod"; }
-  #staff3::after { content: "Mod"; }
-  #staff4::after { content: "Mod"; }
+  #staff2::after { content: "Mod1"; }
+  #staff3::after { content: "Mod2"; }
+  #staff4::after { content: "Mod3"; }
   
   .staff-admin::before {
     position: absolute;
@@ -632,10 +632,10 @@
     position: absolute;
   }
   
-  #mod1:after { content: "one"; }
-  #mod2:after { content: "two"; }
-  #mod3:after { content: "three"; }
-  #mod4:after { content: "four"; }
+  #mod1:after { content: "Admin"; }
+  #mod2:after { content: "Mod1"; }
+  #mod3:after { content: "Mod2"; }
+  #mod4:after { content: "Mod3"; }
   
   #mod1 { background: url(img/rsz_1lambo1996_you_stumble_upon_an_abandoned_alleyway_and_as_you_tur_935321cc-662c-4c26-81f7-25006a9b4ee7.png); }
   /*#mod1:hover { background: url(https://img.pokemondb.net/sprites/black-white/anim/normal/gengar.gif); }*/
@@ -738,6 +738,7 @@
   
   .otm-small:hover {
     opacity: 1; -moz-oapcity: 1;
+    background-image: url();
   }
   
   .otm-thread, .otm-chara, .otm-mem {
@@ -762,16 +763,46 @@
     color: var(--lightpurple);
   }
   
-  .otm-thread {
-    background-image: url(img/rsz_1pexels-olha-ruskykh-5984612.png);
-  }
-  .otm-chara {
-    background-image: url(img/rsz_night-4702174_1920.png);
-  }
-  .otm-mem {
-    background-image: url(img/rsz_3panorama-3106487_1280.png);
-  }
   
+
+    /*andere Gameserver*/
+    .otm-thread {
+      background-image: url(img/rsz_1pexels-olha-ruskykh-5984612.png);
+      background-size: 100%;
+      transition: background-size 0.5s linear;
+    }
+    
+    .otm-thread:hover {
+      background-size: 140%;
+    }
+    
+/*Ansprechpartner*/
+.otm-chara {
+  background-image: url(img/rsz_night-4702174_1920.png);
+  background-size: 100%;
+  transition: background-size 0.5s ease-in;
+}
+.otm-chara:hover {
+  background-size: 140%;
+  filter: none;
+}
+
+
+/*Supporter*/
+.otm-mem {
+  background-image: url(img/rsz_3panorama-3106487_1280.png);
+  background-size: 100%;
+  transition: background-size 0.5s ease-in-out;
+  background-color: rgba(200, 200, 200, 0.5);
+}
+
+.otm-mem:hover {
+  background-size: 140%;
+  background-color: transparent;
+}
+
+
+
   /* EXP BAR ANIMATIONS */
   #rival-header input:checked+label .rtabdot {
     background: var(--lightpurple);
