@@ -15,7 +15,7 @@
     color: #999;
     margin: 0;
     background-color: #212121;
-    background-image: url(/img/Suusenbinder_burning_Lake_in_the_forrest_high_quality_3afe29fa-cc37-44a5-8e3d-c6b39455f79a.png);
+    background-image: url(img/Suusenbinder_burning_Lake_in_the_forrest_high_quality_3afe29fa-cc37-44a5-8e3d-c6b39455f79a.png);
     background-size: cover;
     background-attachment: fixed;
     background-blend-mode: overlay;
@@ -357,7 +357,7 @@
   
   .siteeventmain {
     border: 5px solid #0d0d0d;
-    background-image: url(/img/rsz_2suusenbinder_a_big_roofy_on_a_roof_e287a568-3e6b-4d5d-9f87-ca9e43478e90.png); ;
+    background-image: url(img/rsz_2suusenbinder_a_big_roofy_on_a_roof_e287a568-3e6b-4d5d-9f87-ca9e43478e90.png); ;
     background-size: 398px 178px;
     background-position: center;
     background-color: #1c1c1cdb;
@@ -637,13 +637,13 @@
   #mod3:after { content: "three"; }
   #mod4:after { content: "four"; }
   
-  #mod1 { background: url(/img/rsz_1lambo1996_you_stumble_upon_an_abandoned_alleyway_and_as_you_tur_935321cc-662c-4c26-81f7-25006a9b4ee7.png); }
+  #mod1 { background: url(img/rsz_1lambo1996_you_stumble_upon_an_abandoned_alleyway_and_as_you_tur_935321cc-662c-4c26-81f7-25006a9b4ee7.png); }
   /*#mod1:hover { background: url(https://img.pokemondb.net/sprites/black-white/anim/normal/gengar.gif); }*/
-  #mod2 { background: url(/img/rsz_suusenbinder_nerdy_insect_eats_pineapple_a131af49-2d0e-423e-a956-5d82461f89bc.png) }
+  #mod2 { background: url(img/rsz_suusenbinder_nerdy_insect_eats_pineapple_a131af49-2d0e-423e-a956-5d82461f89bc.png) }
   /*#mod2:hover { background: url(https://img.pokemondb.net/sprites/black-white/anim/normal/mismagius.gif); }*/
-  #mod3 { background: url(/img/rsz_1silverhaz3_goblin_slyer_als_panda_05d20937-bd24-45d0-b482-ead58b8aa24a.png); }
+  #mod3 { background: url(img/rsz_1silverhaz3_goblin_slyer_als_panda_05d20937-bd24-45d0-b482-ead58b8aa24a.png); }
   /*#mod3:hover { background: url(https://img.pokemondb.net/sprites/black-white/anim/normal/drifblim.gif); }*/
-  #mod4 { background: url(/img/rsz_1lambo1996_a_purple_robot_with_a_panda_mask_on_his_face_in_high__b6b5c63e-8722-4fbf-a039-de1032e3c291.png); }
+  #mod4 { background: url(img/rsz_1lambo1996_a_purple_robot_with_a_panda_mask_on_his_face_in_high__b6b5c63e-8722-4fbf-a039-de1032e3c291.png); }
   /*#mod4:hover { background: url(https://img.pokemondb.net/sprites/black-white/anim/normal/chandelure.gif); }*/
   
   .staff-mod:hover {
@@ -693,7 +693,7 @@
   .otm-sync-pair {
     width: 258px;
     height: 230px;
-    background-image: url(/img/rsz_1logo-6062235_1280.png);
+    background-image: url(img/rsz_1logo-6062235_1280.png);
     background-color: #1f1f1f00;
     overflow: hidden;
   }
@@ -763,13 +763,13 @@
   }
   
   .otm-thread {
-    background-image: url(/img/rsz_1pexels-olha-ruskykh-5984612.png);
+    background-image: url(img/rsz_1pexels-olha-ruskykh-5984612.png);
   }
   .otm-chara {
-    background-image: url(/img/rsz_night-4702174_1920.png);
+    background-image: url(img/rsz_night-4702174_1920.png);
   }
   .otm-mem {
-    background-image: url(/img/rsz_3panorama-3106487_1280.png);
+    background-image: url(img/rsz_3panorama-3106487_1280.png);
   }
   
   /* EXP BAR ANIMATIONS */
