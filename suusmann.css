@@ -20,7 +20,7 @@
 
 /*general*/
 body {
-    background-image: url("/img/Suusmann.png");
+    background-image: url("img/Suusmann.png");
 background-position: center center;
 font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif "Open Sans";
     position: relative;
