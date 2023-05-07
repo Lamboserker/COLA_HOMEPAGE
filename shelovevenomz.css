@@ -161,7 +161,7 @@ label {
 
 mark {
     padding: 0.5rem;
-    background: linear-gradient(to right, #4a4d75, #5d5c8e, #a5a5a5);
+    background: linear-gradient(to right, #fa0000, #410e11, #000000);
     border-radius: 5px;
     color: white;
 }
@@ -202,13 +202,13 @@ textarea:focus {
     font-weight: bold;
     font-size: 1.2rem;
     border-radius: 6px;
-    border: 2px solid #1994f2;
+    border: 2px solid #802121;
     width: 200px;
     padding: 1rem;
     color: #fff;
-    background: linear-gradient(180deg, #4b91f7 0%, #367af6 100%);
+    background: linear-gradient(180deg, #f74b4b 0%, #3a0707 100%);
     background-origin: border-box;
-    box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25),
+    box-shadow: 0px 0.5px 1.5px rgba(255, 255, 255, 0.089),
         inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
     user-select: none;
     -webkit-user-select: none;
@@ -217,11 +217,11 @@ textarea:focus {
 }
 
 .button-10:hover {
-    background: #05355a;
-    border-color: #1994f2;
+    background: #5a0510;
+    border-color: #f2194f;
     box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2),
         0px 0.5px 1.5px rgba(54, 122, 246, 0.25),
-        0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+        0px 0px 0px 3.5px rgba(217, 58, 92, 0.5);
     outline: 0;
 }
 
@@ -328,7 +328,7 @@ textarea:focus {
     top: -21px;
     font-size: 19px;
     font-weight: bold;
-    color: rgba(128, 128, 128, 0.8);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .socials-bar::before {
@@ -339,9 +339,9 @@ textarea:focus {
     width: 100%;
     height: 100%;
     background: linear-gradient(to right,
-            rgba(128, 128, 128, 0.5),
-            rgba(128, 128, 128, 0.2),
-            rgba(128, 128, 128, 0.5));
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.5));
     animation: shimmer 2s infinite;
     z-index: -1;
 }
@@ -357,7 +357,7 @@ textarea:focus {
 }
 
 .socials-bar span {
-    background-color: #131f41;
+    background-color: #000000;
     padding: 0 10px;
 }
 
