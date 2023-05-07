@@ -21,30 +21,19 @@
 /*general*/
 body {
     background-image: url("img/Suusmann.png");
-    background-position: center center;
-    font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif "Open Sans";
+background-position: center center;
+font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif "Open Sans";
     position: relative;
-    display: grid;
-    place-items: center;
-    min-height: 100vh;
-    margin: 0;
 }
 
-
-
-/* Header */
+/*Head*/
 header {
-    display: flex;
-    justify-content: center;
-    width: 100%;
     background-color: #343a403e;
-    padding: 20px 0; /* Optional: Fügt etwas Abstand zwischen dem Logo und dem oberen/unteren Rand der Seite hinzu */
-}
-
-nav {
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 .logo img {
@@ -56,25 +45,23 @@ nav {
 
 /*Contact Card*/
 .container {
-    .container {
-        background: #131f41;
-        background: -webkit-linear-gradient(top left, #131f41, #af3f3f);
-        background: -moz-linear-gradient(top left, #131f41, #af3f3f);
-        background: linear-gradient(to bottom right, #131f41, #af3f3f);
-        box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.3);
-        border-radius: 9px;
-        width: 400px;
-        height: 630px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        z-index: 1;
-        overflow: hidden;
-    }
-    
+    background: #131f41;
+    background: -webkit-linear-gradient(top left, #131f41, #af3f3f);
+    background: -moz-linear-gradient(top left, #131f41, #af3f3f);
+    background: linear-gradient(to bottom right, #131f41, #af3f3f);
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 9px;
+    width: 400px;
+    height: 630px;
+    position: relative;
+    top: 4rem;
+    left: 36.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    overflow: hidden;
 }
-
-
 
 /*Media Querry for Container*/
 @media (max-width: 701px) {
@@ -109,27 +96,24 @@ nav {
 
 @media (min-width: 1191px) {
     .container {
-        .container {
-            background: #131f41;
-            background: -webkit-linear-gradient(top left, #131f41, #af3f3f);
-            background: -moz-linear-gradient(top left, #131f41, #af3f3f);
-            background: linear-gradient(to bottom right, #131f41, #af3f3f);
-            box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.3);
-            border-radius: 9px;
-            width: 400px;
-            height: 630px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            z-index: 1;
-            overflow: hidden;
-        }
-        
+        background: #131f41;
+        background: -webkit-linear-gradient(top left, #131f41, #af3f3f);
+        background: -moz-linear-gradient(top left, #131f41, #af3f3f);
+        background: linear-gradient(to bottom right, #131f41, #af3f3f);
+        box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.3);
+        border-radius: 9px;
+        width: 400px;
+        height: 630px;
+        position: relative;
+        top: 1rem;
+        left: 36.5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 1;
+        overflow: hidden;
     }
-    
-    }
-    
-    
+}
 
 .head {
     width: 100%;
