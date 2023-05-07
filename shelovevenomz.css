@@ -21,21 +21,31 @@
 /*general*/
 body {
     background-image: url("img/SheLoveVenomz.png");
-
-  background-position: center center ;
+    background-position: center center;
     font-family: -apple-system, BlinkMacSystemFont, "Roboto",
         sans-serif "Open Sans";
     position: relative;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    margin: 0;
 }
 
-/*Head*/
+
+/* Header */
 header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
     background-color: #343a403e;
-    color: #fff;
+    padding: 20px 0;
+    /* Optional: Fügt etwas Abstand zwischen dem Logo und dem oberen/unteren Rand der Seite hinzu */
+}
+
+nav {
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 
 .logo img {
@@ -54,9 +64,6 @@ header {
     border-radius: 9px;
     width: 400px;
     height: 630px;
-    position: relative;
-    top: 4rem;
-    left: 36.5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -105,9 +112,6 @@ header {
         border-radius: 9px;
         width: 400px;
         height: 630px;
-        position: relative;
-        top: 1rem;
-        left: 36.5%;
         display: flex;
         flex-direction: column;
         align-items: center;
