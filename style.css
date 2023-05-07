@@ -675,16 +675,16 @@ a:hover {
 
 #staff1::before {
   content: "Lamboserker";
-  color: red;
+  color: rgb(252, 0, 0);
   text-shadow: 5px 1px 0 #000, 5px 1px 0 #000, 5px 5px 0 #000, 5px 5px 0 #000;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 #staff2::before {
   content: "Suusmann";
   color:  #f05757;
   text-shadow: 5px 1px 0 #000, 5px 1px 0 #000, 5px 5px 0 #000, 5px 5px 0 #000;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 #staff3::before {
